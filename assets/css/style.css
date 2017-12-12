@@ -1,0 +1,39 @@
+body {
+  background-image: url("../images/background2.jpg");
+}
+
+.contentContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  padding: 30px;
+  text-align: center;
+  background-color: #a4b8d8;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 25px;
+}
+
+#puppy_images {
+  cursor: pointer;
+  padding: 15px;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 250%;
+}
+
+p {
+  font-family: 'Boogaloo', cursive;
+}
+
+.game_instructions {
+  text-align: justify;
+}
+
+.game_stats {
+  font-size: 130%;
+  text-align: center;
+}

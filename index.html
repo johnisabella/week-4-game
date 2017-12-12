@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo|Permanent+Marker" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" script src="assets/javascript/game.js"></script>
+  <title>Puppy Rescue!</title>
+</head>
+
+<body>
+<div class="contentContainer">
+<h1>Puppy Rescue!</h1>
+<div id="puppy_images"></div>
+<div id="game_instructions">
+<p>The local shelter needs your help! There has been a huge influx of displaced puppies to the area as a result of this year's hurricane season. Your mission is to go to the local puppy intake center, and bring as many puppies as can safely fit in your truck back to the shelter.</p>
+
+<p>Your truck has a designated weight limited (specified below), and the combination of puppies that you select must add up to the exact weight limit of the truck in order to win the game. You will not know the weight of each puppy until you click on it to bring it into your truck, and you can select each puppy as many times as you'd like.</p>
+
+<p>If the weight of the puppies exceeds your truck's weight limit, the truck will break down and you will lose the game (and the respect of multiple puppies).</p>
+</div>
+
+<div class="game_stats">
+<p>Your truck's weight limit is: <span id="target_score"></span><bold></p>
+<p>Your truck's current weight is: <span id="player_score"></span></p>
+<p>Total game wins: <span id="player_wins"></span></p>
+<p>Total game losses: <span id="player_losses"></span></p>
+</div>
+
+</div>
+
+</body>
+</html>
